@@ -1,0 +1,16 @@
+[2026-09-05T04:58:56Z] === ENRICH ITERATION 1 START | repo=repolex-ai/rlex sha=550a8e5a ===
+[2026-09-05T04:58:56Z] [iter=1] PHASE START: enrich repo=repolex-ai/rlex sha=550a8e5a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/550a8e5a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/550a8e5a1a7b121bd970eff3e7575acd158f6bb8.nq.gz
+[2026-09-05T04:58:56Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-05T04:58:56Z] [iter=1] AST store loaded triples=90741 load_secs=1 mem_mb=207 MB
+[2026-09-05T04:58:56Z] [iter=1] Step 2: Finding LSP targets mem_mb=207 MB
+[2026-09-05T04:58:56Z] [iter=1] LSP targets found call_sites=1048 imports=0 extends=0 implements=0 secs=0
+[2026-09-05T04:58:56Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=207 MB
+[2026-09-05T04:58:57Z] [iter=1] Position index built positions=5956 nodes_with_types=7581 secs=0 mem_mb=207 MB
+[2026-09-05T04:58:57Z] [iter=1] Step 3: Starting LSP resolution mem_mb=207 MB already_completed_types=[] already_completed_files=0
+[2026-09-05T04:58:57Z] [iter=1] Resolving target type target_type=call_site count=1048
+[2026-09-05T05:07:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=0 resolved=0 errors=0 current=crates/rlex/src/query.rs
+[2026-09-05T05:07:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=1 resolved=102 errors=8 current=crates/rlex/src/index.rs
+[2026-09-05T05:08:09Z] [iter=1] Target type resolved target_type=call_site resolved=621 errors=73 secs=552 mem_mb=207 MB
+[2026-09-05T05:08:31Z] [iter=1] Step 5: Writing final enrichment file triples=7342
+[2026-09-05T05:08:31Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/550a8e5a1a7b121bd970eff3e7575acd158f6bb8.nq.gz size_kb=124
+[2026-09-05T05:08:31Z] [iter=1] PHASE END: enrich elapsed_s=575 elapsed_min=9.6 total_triples=7342
