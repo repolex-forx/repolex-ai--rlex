@@ -1,0 +1,36 @@
+{
+  "manifest_version": "1.0",
+  "org": "repolex-ai",
+  "repo": "rlex",
+  "versions": [
+    {
+      "commit": "550a8e5a1a7b121bd970eff3e7575acd158f6bb8",
+      "parsed_at": "2026-09-05T03:26:00.343259+00:00",
+      "tag": "main",
+      "filetree": "filetree/550a8e5a1a7b121bd970eff3e7575acd158f6bb8.nq.gz",
+      "blobs": [
+        "blob/8434ff37e699095961ee840ab56e3b0a2fbf7fee.nq.gz",
+        "blob/765b7e86364aaca8ca8736d1db2bfde9d934c05d.nq.gz",
+        "blob/0ec0a90ee20d5c0937bdc49b3d359d228c8da10a.nq.gz",
+        "blob/ee9530229e0841cd604252685028f7e839632c0b.nq.gz",
+        "blob/4c5ee0adb56ced430d62250baaa598e5f8ee6ae3.nq.gz",
+        "blob/5642ccbbce7cf46645bd06e931da00dc51a01c3c.nq.gz",
+        "blob/101a3228cf561f499956680130bb2cdc472abbf3.nq.gz",
+        "blob/f48ce1a4812de7986c8968212790d2f6d49cb1ae.nq.gz",
+        "blob/db1f7bea9b314cdbfa79a7675e57725659208362.nq.gz",
+        "blob/4dccd1e4cde7a406489e37c9e1bb38b4b9fb8a64.nq.gz",
+        "blob/ecbd5bb65a9fab1df60b4522fc1bffa6dcf26bcf.nq.gz",
+        "blob/15c3fe711a259fa7a9f18fa0bf64d0e1ca8074fb.nq.gz",
+        "blob/3e43dfb2d091b64424f1ee65aa03c477b322274a.nq.gz",
+        "blob/2ab8904173e506a4c8e90cdf0db087175f7c76c1.nq.gz",
+        "blob/5cf9b7b534b51da425370166cf76ed7beb959ead.nq.gz",
+        "blob/a5d53af891302ecbd46fae1ca539ad513df61f42.nq.gz",
+        "blob/f0ce93aa9a9b96d469ffd6e96f776985603ca094.nq.gz",
+        "blob/a3f141396b7cfac3d668f67456bebcf49a085dbb.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz"
+}
