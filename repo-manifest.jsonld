@@ -41,6 +41,11 @@
       "git:hexsha": "ad503ab07efb5c94e9166103ca75f996a2787e72",
       "repolex:parseStatus": "parsed",
       "repolex:parsedAt": "2026-09-18T11:24:11.830755+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/repolex-ai/rlex/commit/e21b18bc274481417c3a275ad059cd9f6239ad5f",
+      "git:hexsha": "e21b18bc274481417c3a275ad059cd9f6239ad5f",
+      "repolex:parseStatus": "metadata_complete"
     }
   ]
 }
