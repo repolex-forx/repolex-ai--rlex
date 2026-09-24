@@ -783,7 +783,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/335ff67fccdf5ca38e88cf42a6260625eda9009f/chunk-001.nq.gz",
+      "dep": "dep/335ff67fccdf5ca38e88cf42a6260625eda9009f.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
