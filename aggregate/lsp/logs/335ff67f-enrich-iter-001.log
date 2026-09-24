@@ -1,0 +1,19 @@
+[2026-09-24T08:47:50Z] === ENRICH ITERATION 1 START | repo=repolex-ai/rlex sha=335ff67f ===
+[2026-09-24T08:47:50Z] [iter=1] PHASE START: enrich repo=repolex-ai/rlex sha=335ff67f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/335ff67f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/335ff67fccdf5ca38e88cf42a6260625eda9009f.nq.gz
+[2026-09-24T08:47:50Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-24T08:47:52Z] [iter=1] AST store loaded triples=217265 load_secs=1 mem_mb=367 MB
+[2026-09-24T08:47:52Z] [iter=1] Step 2: Finding LSP targets mem_mb=367 MB
+[2026-09-24T08:47:52Z] [iter=1] LSP targets found call_sites=2442 imports=25 extends=0 implements=0 secs=0
+[2026-09-24T08:47:52Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=367 MB
+[2026-09-24T08:47:53Z] [iter=1] Position index built positions=14696 nodes_with_types=18079 secs=1 mem_mb=367 MB
+[2026-09-24T08:47:53Z] [iter=1] Step 3: Starting LSP resolution mem_mb=367 MB already_completed_types=[] already_completed_files=0
+[2026-09-24T08:47:53Z] [iter=1] Resolving target type target_type=call_site count=2442
+[2026-09-24T08:55:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=0 resolved=0 errors=0 current=crates/rlex/src/registry.rs
+[2026-09-24T08:56:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.3 files_done=1 resolved=53 errors=3 current=crates/rlex/examples/demo_sparql.rs
+[2026-09-24T08:56:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=24 resolved=1487 errors=137 current=crates/rlex/src/catalog.rs
+[2026-09-24T08:56:47Z] [iter=1] Target type resolved target_type=call_site resolved=1512 errors=141 secs=534 mem_mb=367 MB
+[2026-09-24T08:56:47Z] [iter=1] Resolving target type target_type=import_statement count=25
+[2026-09-24T08:57:11Z] [iter=1] Target type resolved target_type=import_statement resolved=25 errors=0 secs=24 mem_mb=367 MB
+[2026-09-24T08:57:35Z] [iter=1] Step 5: Writing final enrichment file triples=17279
+[2026-09-24T08:57:35Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/335ff67fccdf5ca38e88cf42a6260625eda9009f.nq.gz size_kb=305
+[2026-09-24T08:57:35Z] [iter=1] PHASE END: enrich elapsed_s=584 elapsed_min=9.7 total_triples=17279

@@ -552,6 +552,237 @@
       ],
       "ast": [
         "aggregate/ast/335ff67fccdf5ca38e88cf42a6260625eda9009f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/335ff67fccdf5ca38e88cf42a6260625eda9009f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "flate2",
+          "ecosystem": "CARGO",
+          "version": "1.1.9",
+          "githubOrg": "rust-lang",
+          "githubRepo": "flate2-rs",
+          "githubCommit": "19ddb18bf11199858fbc6504d079448fafd1606e",
+          "githubTag": "1.1.9",
+          "githubUrl": "https://github.com/rust-lang/flate2-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/flate2-1.1.9/src/gz/read.rs"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.102",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "5c657b32522023a9f7ef883fb08582fd8e656b1a",
+          "githubTag": "1.0.102",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.102/src/lib.rs"
+        },
+        {
+          "packageName": "walkdir",
+          "ecosystem": "CARGO",
+          "version": "2.5.0",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "walkdir",
+          "githubCommit": "4f26be4d450910916ea11533b2efc52b9a6483bc",
+          "githubTag": "2.5.0",
+          "githubUrl": "https://github.com/BurntSushi/walkdir",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/walkdir-2.5.0/src/lib.rs"
+        },
+        {
+          "packageName": "oxigraph",
+          "ecosystem": "CARGO",
+          "version": "0.5.6",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "45e892308368d8b2c271d06dc04de17dfb6de80f",
+          "githubTag": "v0.5.6",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/oxigraph",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxigraph-0.5.6/src/store.rs"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.149",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "4f6dbfac79647d032b0997b5ab73022340c6dab7",
+          "githubTag": "v1.0.149",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.149/src/value/mod.rs"
+        },
+        {
+          "packageName": "json-ld-core",
+          "ecosystem": "CARGO",
+          "version": "0.21.4",
+          "githubOrg": "timothee-haudebourg",
+          "githubRepo": "json-ld",
+          "githubCommit": "17854d02835dcac70f6e9b40f028e1b61e6ae8fd",
+          "githubTag": "v0.21.4",
+          "githubUrl": "https://github.com/timothee-haudebourg/json-ld",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/json-ld-core-0.21.4/src/loader/mod.rs"
+        },
+        {
+          "packageName": "oxrdf",
+          "ecosystem": "CARGO",
+          "version": "0.3.3",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+          "githubTag": "v0.3.3",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdf-0.3.3/src/literal.rs"
+        },
+        {
+          "packageName": "actix-web",
+          "ecosystem": "CARGO",
+          "version": "4.13.0",
+          "githubOrg": "actix",
+          "githubRepo": "actix-web",
+          "githubUrl": "https://github.com/actix/actix-web",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-web-4.13.0/src/response/http_codes.rs"
+        },
+        {
+          "packageName": "toml",
+          "ecosystem": "CARGO",
+          "version": "0.8.23",
+          "githubOrg": "toml-rs",
+          "githubRepo": "toml",
+          "githubUrl": "https://github.com/toml-rs/toml",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/toml-0.8.23/src/de.rs"
+        },
+        {
+          "packageName": "reqwest",
+          "ecosystem": "CARGO",
+          "version": "0.12.28",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "reqwest",
+          "githubCommit": "d97859910c357827ad5993d37ce750ad595f4fff",
+          "githubTag": "v0.12.28",
+          "githubUrl": "https://github.com/seanmonstar/reqwest",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-0.12.28/src/blocking/response.rs"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.4.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "b9625d83b524f7a8306883484f29a746eefc1bab",
+          "githubTag": "v1.4.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.4.0/src/header/map.rs"
+        },
+        {
+          "packageName": "spareval",
+          "ecosystem": "CARGO",
+          "version": "0.2.6",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/spareval",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spareval-0.2.6/src/model.rs"
+        },
+        {
+          "packageName": "oxrdfio",
+          "ecosystem": "CARGO",
+          "version": "0.2.4",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "3e05c6ef4049623e77500196b4136e25b6f7789d",
+          "githubTag": "v0.2.4",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/master/lib/oxrdfxml",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.2.4/src/serializer.rs"
+        },
+        {
+          "packageName": "regex",
+          "ecosystem": "CARGO",
+          "version": "1.12.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "regex",
+          "githubCommit": "b028e4f40eac8959d05e82abf8404906b1c565c0",
+          "githubTag": "1.12.3",
+          "githubUrl": "https://github.com/rust-lang/regex",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-1.12.3/src/regex/string.rs"
+        },
+        {
+          "packageName": "axum",
+          "ecosystem": "CARGO",
+          "version": "0.8.8",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "axum",
+          "githubUrl": "https://github.com/tokio-rs/axum",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/axum-0.8.8/src/serve/mod.rs"
+        },
+        {
+          "packageName": "axum-core",
+          "ecosystem": "CARGO",
+          "version": "0.5.6",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "axum",
+          "githubUrl": "https://github.com/tokio-rs/axum",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/axum-core-0.5.6/src/response/into_response.rs"
+        },
+        {
+          "packageName": "tower-http",
+          "ecosystem": "CARGO",
+          "version": "0.6.8",
+          "githubOrg": "tower-rs",
+          "githubRepo": "tower-http",
+          "githubCommit": "33166c8104be9b40ec15c480503d50d8c2312062",
+          "githubTag": "tower-http-0.6.8",
+          "githubUrl": "https://github.com/tower-rs/tower-http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tower-http-0.6.8/src/cors/mod.rs"
+        },
+        {
+          "packageName": "urlencoding",
+          "ecosystem": "CARGO",
+          "version": "2.1.3",
+          "githubOrg": "kornelski",
+          "githubRepo": "rust_urlencoding",
+          "githubUrl": "https://github.com/kornelski/rust_urlencoding",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/urlencoding-2.1.3/src/dec.rs"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.51.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "0af06b7bab12c58161b1d0ae79bdf4452305d42f",
+          "githubTag": "tokio-1.51.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.51.0/src/net/tcp/listener.rs"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.228",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+          "githubTag": "v1.0.228",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs"
+        }
       ]
     }
   ],
