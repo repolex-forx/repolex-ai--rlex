@@ -89,6 +89,11 @@
       "git:hexsha": "1375f8feede6f2c2de6905cd8e5af0e6c0682170",
       "repolex:parseStatus": "metadata_complete",
       "git:tagName": "v0.1.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/repolex-ai/rlex/commit/54596f353295480bf6f1bd169266979d6c5dd518",
+      "git:hexsha": "54596f353295480bf6f1bd169266979d6c5dd518",
+      "repolex:parseStatus": "metadata_complete"
     }
   ]
 }
